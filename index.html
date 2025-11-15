@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Goa Trip Itinerary</title>
+  <style>
+    :root {
+      --accent: #0b8f6e;
+      --muted: #666;
+      --bg: #f9f9f9;
+      --card: #ffffff;
+      --radius: 10px;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    body {
+      background: var(--bg);
+      color: #111;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .wrap {
+      max-width: 900px;
+      width: 100%;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: var(--radius);
+    }
+    h1 {
+      margin: 10px 0 4px;
+      font-size: 28px;
+    }
+    p.lead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .card {
+      background: var(--card);
+      padding: 20px;
+      border-radius: var(--radius);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+    .section-title {
+      margin-bottom: 12px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 4px;
+    }
+    .section-title h2 {
+      margin: 0;
+      font-size: 20px;
+      color: var(--accent);
+    }
+    .it-day {
+      margin-bottom: 16px;
+    }
+    .time {
+      color: var(--accent);
+      font-weight: 700;
+    }
+    ul.clean {
+      padding-left: 20px;
+      margin: 8px 0;
+    }
+    .img-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+    .img-row img {
+      flex: 1;
+      min-width: 45%;
+      max-width: 49%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: var(--radius);
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    pre {
+      background: #eee;
+      padding: 10px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      
+      <h1>Goa Trip Itinerary</h1>
+      <p class="lead">Chill, sightseeing, beaches — Le Seasons, Candolim.</p>
+    </header>
+
+    <div class="card">
+      <div class="section-title"><h2>🗺️ Plan Overview</h2></div>
+
+      <div class="it-day">
+        <strong>Day 1 — Arrival & Chill 🌅</strong><br>
+        <p><span class="time">Arrive →</span> Check-in at Le Seasons Resort (Candolim)</p>
+        <p><span class="time">Beach Time →</span> Candolim Beach — Sunset & Relax</p>
+        <p><span class="time">Market →</span> Explore Candolim Local Market</p>
+        <p><span class="time">Dinner →</span> Fisherman’s Cove / Mermaid / De Candolim Deck / Grills N Curries</p>
+      </div>
+
+      <div class="it-day">
+        <strong>Day 2 — North Goa + Arambol 🏖️</strong><br>
+        <p><span class="time">Start →</span> Aguada Fort, Sinquerim Beach</p>
+        <ul class="clean">
+          <li>Optional: Dolphin Trip</li>
+          <li>Calangute → Baga stretch</li>
+          <li>Lunch: Britto’s / Infantaria / St. Anthony’s</li>
+          <li>Relax & Shop near Baga Creek</li>
+          <li>Chapora Fort → Vagator → Anjuna</li>
+          <li>Arambol Beach — Sunset & Chill</li>
+        </ul>
+      </div>
+
+      <div class="it-day">
+        <strong>Day 3 — South Goa Highlights 🕍</strong><br>
+        <p><span class="time">Temples & Heritage →</span> Mangeshi Temple, Basilica of Bom Jesus, St. Francis Xavier Church, Archaeological Museum</p>
+        <p><span class="time">City Walk →</span> Panjim Church, Latin Quarter (Fontainhas)</p>
+        <p><span class="time">Views →</span> Dona Paula Viewpoint, Miramar Beach</p>
+        <p><span class="time">Market →</span> Panjim Market</p>
+      </div>
+
+      <div class="it-day">
+        <strong>Day 4 — Checkout ✈️</strong><br>
+        <p><span class="time">Breakfast →</span> Café Chocolatti + Beach Walk</p>
+        <p><span class="time">Checkout →</span> Transfer to airport</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title"><h2>🍽️ Restaurant Guide (Descriptions)</h2></div>
+      <ul class="clean">
+        <li><strong>Fisherman’s Cove:</strong> Great Goan seafood, vibrant ambience, known for kingfish thali.</li>
+        <li><strong>Mermaid:</strong> Calm beachside place with good grills, cocktails, and candlelight vibe.</li>
+        <li><strong>De Candolim Deck:</strong> Lively spot with live music, seafood platters, and amazing ambiance.</li>
+        <li><strong>Grills N Curries:</strong> Best for Goan curries, spicy prawns, and affordable fresh seafood.</li>
+        <li><strong>Britto’s:</strong> Iconic Baga shack — desserts, seafood, beach-front vibe.</li>
+        <li><strong>Infantaria:</strong> Breakfast favourite — pastries, pancakes, Goan cafe feel.</li>
+        <li><strong>St. Anthony’s:</strong> Popular shack with karaoke, casual food, good for evenings.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="section-title"><h2>🎒 Packing + Essentials</h2></div>
+      <div class="two-col">
+        <div>
+          <h4>Clothes & Beach</h4>
+          <ul class="clean">
+            <li>Light cotton shirts, shorts</li>
+            <li>Swimwear + extra towel</li>
+            <li>Slippers / sandals, sunglasses, cap</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Essentials</h4>
+          <ul class="clean">
+            <li>Sunscreen (SPF 30–50)</li>
+            <li>Powerbank, waterproof pouch</li>
+            <li>Wet wipes, small backpack</li>
+            <li>Mosquito repellent, basic first-aid</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title"><h2>Top Photo / Reel Spots</h2></div>
+      
+      <p>Key spots: Arambol Beach (sunset + drums), Fort Aguada, Chapora Fort cliff, Vagator cliff, Fontainhas, Dona Paula viewpoint.</p>
+    </div>
+
+    <div class="card">
+      <div class="section-title"><h2>🚖 Transport & Tips</h2></div>
+      <ul class="clean">
+        <li>Use GoaMiles / QuickCab / FROGO for local travel.</li>
+        <li>Reapply sunscreen often; stay hydrated.</li>
+        <li>Avoid leaving valuables on the beach.</li>
+        <li>Wear comfy footwear.</li>
+      </ul>
+    </div>
+
+    <footer class="card">
+      <p>Created by <strong>Monk</strong>.</p>
+    </footer>
+  </div>
+</body>
+</html>
